@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bglevel1part2versi4"
+    tools:context="com.dummies.ecoscoutgame.MainLevel1Part2Activity">
+
+    <RelativeLayout
+        android:layout_width="592dp"
+        android:layout_height="357dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    <ImageButton
+        android:id="@+id/tombolBeranda2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        app:srcCompat="@mipmap/tombolberanda8"
+        />
+
+
+    <ImageButton
+        android:id="@+id/tombolKeluar3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@mipmap/tombolkeluar8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+         />
+
+        <ImageButton
+            android:id="@+id/tombolkePart1"
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:layout_alignEnd="@+id/tombolKeluar3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/tombolKeluar3"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@mipmap/tombolkiri8" />
+
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

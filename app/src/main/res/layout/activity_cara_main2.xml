@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bgopeningeng4"
+    tools:context="com.dummies.ecoscoutgame.CaraMain2Activity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+    <ImageView
+        android:id="@+id/backgroundCaraMain"
+        android:layout_width="1050dp"
+        android:layout_height="1000dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@mipmap/bgcaramaintabletpagekedua2" />
+
+        <ImageButton
+            android:id="@+id/tombolBeranda3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            app:srcCompat="@mipmap/tombolberanda8"
+            />
+
+        <ImageButton
+            android:id="@+id/tombolKeluar4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@mipmap/tombolkeluar8"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            />
+
+        <ImageButton
+            android:id="@+id/tombolkeCaraMain1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_alignEnd="@+id/tombolBeranda3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/tombolBeranda3"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            app:srcCompat="@mipmap/tombolkiri8" />
+
+        <TextView
+            android:id="@+id/instruction2"
+            android:layout_width="850dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="225dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="You will earn 10 points when you drop it to the right trash bin. But, you will earn only 1 point when you drop it to the wrong trash bin.
+" />
+
+        <TextView
+            android:id="@+id/petunjukSampahHijau"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="280dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Food waste, fruits peels, coffee grounds, kitchen paper, etc. " />
+
+        <TextView
+            android:id="@+id/petunjukSampahBiru"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="480dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Newspaper, magazines, envelopes, advertisement flyers, etc. " />
+
+        <TextView
+            android:id="@+id/petunjukSampahKuning"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="680dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Plastic bags, plastic bottles, plastic straws, other plactic packagings " />
+
+        <TextView
+            android:id="@+id/petunjukSampahMerah"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="880dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="alumunium can, metal packaging, metal items " />
+
+
+        <TextView
+            android:id="@+id/pusatCaraMain2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text=" " />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

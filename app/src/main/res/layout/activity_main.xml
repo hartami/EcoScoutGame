@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bgopeningeng5"
+    tools:context="com.dummies.ecoscoutgame.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/pusat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/pusatbawah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text=" " />
+
+        <ImageButton
+            android:id="@+id/tombolMulaiMain"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/pusat"
+            android:layout_toLeftOf="@id/pusatbawah"
+            android:layout_marginTop="110dp"
+            android:layout_marginHorizontal="25dp"
+            android:background="@mipmap/tombolmulaimainenglish2"
+        />
+
+        <ImageButton
+            android:id="@+id/tombolCaraMainBesar"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/pusat"
+            android:layout_toRightOf="@+id/pusatbawah"
+            android:layout_marginTop="110dp"
+            android:layout_marginHorizontal="25dp"
+            android:background="@mipmap/tombolcaramainenglish2"
+            />
+
+        <ImageButton
+            android:id="@+id/tombolKeluar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            app:srcCompat="@mipmap/tombolkeluar8" />
+
+        <ImageView
+            android:id="@+id/judulGame"
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:layout_above="@+id/pusat"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:background="@mipmap/logoecoscout8" />
+
+
+        <ImageView
+            android:id="@+id/taglineBaru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/pusat"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@mipmap/judultaglineeng5" />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

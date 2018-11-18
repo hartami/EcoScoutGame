@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bgselamat7"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pusatpopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text=" " />
+
+        <ImageButton
+            android:id="@+id/tombolReplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pusatpopup"
+            android:layout_alignBaseline="@+id/pusatpopupbawah"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/pusatpopup"
+            android:background="@null"
+            app:srcCompat="@mipmap/tombolreplay2" />
+
+        <ImageButton
+            android:id="@+id/tombolNextLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pusatpopup"
+            android:layout_alignBaseline="@+id/pusatpopupbawah"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/pusatpopup"
+            android:background="@null"
+            app:srcCompat="@mipmap/tombolnextlevel2" />
+
+        <TextView
+            android:id="@+id/teksSelamat"
+            android:layout_width="115dp"
+            android:layout_height="70dp"
+            android:layout_alignBottom="@+id/teksSelamat2"
+            android:layout_alignLeft="@+id/finalScore"
+            android:layout_alignStart="@+id/finalScore"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:background="@null"
+            android:text="You got a hat because your score is!"
+            android:textAlignment="center"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/teksSelamat2"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/pusatpopup"
+            android:layout_alignLeft="@+id/tombolNextLevel"
+            android:layout_alignRight="@+id/tombolNextLevel"
+            android:textAlignment="center"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:background="@null"
+            android:text="Your score is" />
+
+        <ImageView
+            android:id="@+id/karakterDapatTopi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pusatpopupatas"
+            android:layout_toLeftOf="@id/pusatpopupatas"
+            android:layout_marginRight="45dp"
+            android:background="@null"
+            app:srcCompat="@mipmap/ekoending5" />
+
+        <ImageView
+            android:id="@+id/karakterTidakDapatTopi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pusatpopupatas"
+            android:layout_toLeftOf="@id/pusatpopupatas"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:background="@null"
+            app:srcCompat="@mipmap/ekoutama11" />
+
+        <TextView
+            android:id="@+id/pusatpopupbawah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pusatpopup"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/pusatpopupatas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/pusatpopup"
+            android:layout_marginBottom="60dp"
+            android:layout_centerHorizontal="true"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/finalScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tombolNextLevel"
+            android:layout_alignRight="@+id/tombolNextLevel"
+            android:layout_below="@+id/teksSelamat"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="00" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
+
