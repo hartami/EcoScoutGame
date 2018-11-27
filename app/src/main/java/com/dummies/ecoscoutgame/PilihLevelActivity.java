@@ -1,6 +1,7 @@
 package com.dummies.ecoscoutgame;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,7 +16,16 @@ public class PilihLevelActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pilih_level);
+        Configuration config = getResources().getConfiguration();
+        if (config.smallestScreenWidthDp >= 600)
+        {
+            setContentView(R.layout.activity_pilih_level_tablet);
+        }
+        else
+        {
+            setContentView(R.layout.activity_pilih_level);
+        }
+        //setContentView(R.layout.activity_pilih_level);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         mp = MediaPlayer.create(this, R.raw.suarakliktombol);

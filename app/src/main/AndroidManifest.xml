@@ -39,10 +39,17 @@
         <activity
             android:name=".Opening1Level1Activity"
             android:screenOrientation="landscape" />
-
-        <activity android:name=".Opening2Level1Activity"
-            android:screenOrientation="landscape">
-        </activity>
+        <activity
+            android:name=".Opening2Level1Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainTabletActivity"
+            android:label="@string/title_activity_main_tablet"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".PilihLevelTabletActivity"
+            android:label="@string/title_activity_pilih_level_tablet"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
     </application>
 
 </manifest>

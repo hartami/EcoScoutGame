@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bgopeningeng4"
+    tools:context=".PilihLevelTabletActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/backgroundPilihMenuTablet"
+            android:layout_width="1050dp"
+            android:layout_height="1000dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@mipmap/bgpilihleveltablet2" />
+
+        <TextView
+            android:id="@+id/pusat2Tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text=" " />
+
+        <ImageButton
+            android:id="@+id/tombolCaraMainTablet"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@mipmap/tombolcaramain9"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageButton
+            android:id="@+id/tombolKeluarMenuTablet"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            app:srcCompat="@mipmap/tombolkeluar8" />
+
+        <ImageButton
+            android:id="@+id/tombolLevel1Tablet"
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/tombolLevel2Tablet"
+            android:layout_toLeftOf="@id/tombolLevel2Tablet"
+            android:background="@null"
+            app:srcCompat="@mipmap/tombolpilih1tabletbersih" />
+
+        <ImageButton
+            android:id="@+id/tombolLevel2Tablet"
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/bglevel2Tablet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="35dp"
+            android:alpha="0.30"
+            android:background="#70FF0000"
+            android:backgroundTint="@color/colorPrimary"
+            android:cropToPadding="false"
+            app:srcCompat="@mipmap/tombolpilih2tabletbersih" />
+
+        <ImageButton
+            android:id="@+id/tombolLevel3Tablet"
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/tombolLevel2Tablet"
+            android:layout_toRightOf="@+id/tombolLevel2Tablet"
+            android:alpha="0.30"
+            android:background="#70FF0000"
+            android:backgroundTint="@color/colorPrimary"
+            app:srcCompat="@mipmap/tombolpilih3tabletbersih" />
+
+        <ImageButton
+            android:id="@+id/bglevel1Tablet"
+            android:layout_width="240dp"
+            android:layout_height="180dp"
+            android:layout_alignTop="@+id/bglevel2Tablet"
+            android:layout_toLeftOf="@id/bglevel2Tablet"
+            app:srcCompat="@mipmap/iconlevel1tabletbersih" />
+
+
+        <ImageButton
+            android:id="@+id/bglevel3Tablet"
+            android:layout_width="240dp"
+            android:layout_height="180dp"
+            android:layout_alignTop="@id/bglevel2Tablet"
+            android:layout_toRightOf="@id/bglevel2Tablet"
+            android:alpha="0.30"
+            android:background="#70FF0000"
+            android:backgroundTint="@color/colorPrimary"
+            app:srcCompat="@mipmap/iconlevel3tabletbersih" />
+
+
+
+        <ImageButton
+            android:id="@+id/bglevel2Tablet"
+            android:layout_width="240dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginVertical="0dp"
+            android:layout_marginHorizontal="35dp"
+            android:alpha="0.30"
+            android:background="#70FF0000"
+            android:backgroundTint="@color/colorPrimary"
+            android:cropToPadding="false"
+            app:srcCompat="@mipmap/iconlevel2tabletbersih" />
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

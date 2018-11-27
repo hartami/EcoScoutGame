@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/bgopeningeng5"
-    tools:context="com.dummies.ecoscoutgame.MainActivity">
+    tools:context=".MainTabletActivity">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
-       <TextView
-            android:id="@+id/pusat"
+
+        <TextView
+            android:id="@+id/pusatTablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -25,7 +28,7 @@
             android:text=" " />
 
         <TextView
-            android:id="@+id/pusatbawah"
+            android:id="@+id/pusatbawahTablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -37,29 +40,29 @@
             android:text=" " />
 
         <ImageButton
-            android:id="@+id/tombolMulaiMain"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_below="@+id/pusat"
-            android:layout_toLeftOf="@id/pusatbawah"
-            android:layout_marginTop="70dp"
-            android:layout_marginHorizontal="20dp"
+            android:id="@+id/tombolMulaiMainTablet"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/pusatTablet"
+            android:layout_toLeftOf="@id/pusatbawahTablet"
+            android:layout_marginTop="110dp"
+            android:layout_marginHorizontal="25dp"
             android:background="@mipmap/tombolmulaimainenglish2"
-        />
+            />
 
         <ImageButton
-            android:id="@+id/tombolCaraMainBesar"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:layout_below="@+id/pusat"
-            android:layout_toRightOf="@+id/pusatbawah"
-            android:layout_marginTop="70dp"
-            android:layout_marginHorizontal="20dp"
+            android:id="@+id/tombolCaraMainBesarTablet"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/pusatTablet"
+            android:layout_toRightOf="@+id/pusatbawahTablet"
+            android:layout_marginTop="110dp"
+            android:layout_marginHorizontal="25dp"
             android:background="@mipmap/tombolcaramainenglish2"
             />
 
         <ImageButton
-            android:id="@+id/tombolKeluar"
+            android:id="@+id/tombolKeluarTablet"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_alignParentRight="true"
@@ -70,20 +73,20 @@
             app:srcCompat="@mipmap/tombolkeluar8" />
 
         <ImageView
-            android:id="@+id/judulGame"
+            android:id="@+id/judulGameTablet"
             android:layout_width="380dp"
             android:layout_height="120dp"
-            android:layout_above="@+id/pusat"
+            android:layout_above="@+id/pusatTablet"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="60dp"
             android:background="@mipmap/logoecoscout8" />
 
 
         <ImageView
-            android:id="@+id/taglineBaru"
+            android:id="@+id/taglineBaruTablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/pusat"
+            android:layout_above="@+id/pusatTablet"
             android:layout_marginBottom="50dp"
             android:layout_centerHorizontal="true"
             app:srcCompat="@mipmap/judultaglineeng5" />
@@ -92,4 +95,4 @@
     </RelativeLayout>
 
 
-</android.support.constraint.ConstraintLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -3,6 +3,7 @@ package com.dummies.ecoscoutgame;
 import android.content.ClipData;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.media.MediaPlayer;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -22,7 +23,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        Configuration config = getResources().getConfiguration();
+        if (config.smallestScreenWidthDp >= 600)
+        {
+            setContentView(R.layout.activity_main_tablet);
+        }
+        else
+        {
+            setContentView(R.layout.activity_main);
+        }
+        //setContentView(R.layout.activity_main);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         mp = MediaPlayer.create(this, R.raw.suarakliktombol);
@@ -85,7 +95,6 @@ public class MainActivity extends AppCompatActivity {
         alert.show();
 
     }
-
 
 
 }
