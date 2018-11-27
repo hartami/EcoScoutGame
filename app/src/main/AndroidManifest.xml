@@ -49,6 +49,10 @@
         <activity
             android:name=".PilihLevelTabletActivity"
             android:label="@string/title_activity_pilih_level_tablet"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".CaraMain1TabletActivity"
+            android:label="@string/title_activity_cara_main1_tablet"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
     </application>
 

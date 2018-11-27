@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/bgopeningeng4"
-    tools:context="com.dummies.ecoscoutgame.CaraMain1Activity">
+    tools:context=".CaraMain1TabletActivity">
 
 
     <RelativeLayout
@@ -14,101 +14,101 @@
         >
 
         <ImageView
-            android:id="@+id/backgroundCaraMain"
-            android:layout_width="550dp"
-            android:layout_height="500dp"
+            android:id="@+id/backgroundCaraMainTablet"
+            android:layout_width="850dp"
+            android:layout_height="800dp"
             android:layout_centerInParent="true"
             app:srcCompat="@mipmap/bgcaramain8" />
 
         <ImageButton
-            android:id="@+id/tombolBeranda2"
+            android:id="@+id/tombolBeranda2Tablet"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
             android:background="@null"
             app:srcCompat="@mipmap/tombolberanda8"
             />
 
         <ImageButton
-            android:id="@+id/tombolKeluar3"
+            android:id="@+id/tombolKeluar3Tablet"
             android:layout_width="80dp"
             android:layout_height="80dp"
             app:srcCompat="@mipmap/tombolkeluar8"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
             android:background="@null"
             />
 
         <ImageButton
-            android:id="@+id/tombolkeCaraMain2"
+            android:id="@+id/tombolkeCaraMain2Tablet"
             android:layout_width="100dp"
             android:layout_height="80dp"
             android:layout_alignEnd="@+id/tombolKeluar3"
             android:layout_alignParentBottom="true"
             android:layout_alignRight="@+id/tombolKeluar3"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="5dp"
             android:layout_marginRight="5dp"
             android:background="@null"
             app:srcCompat="@mipmap/tombolkanan8" />
 
         <TextView
-            android:id="@+id/instruction1"
-            android:layout_width="450dp"
-            android:layout_height="100dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="100dp"
-            android:textAlignment="gravity"
-            android:textColor="@color/colorWarnaHuruf"
-            android:textSize="12dp"
-            android:textStyle="bold"
-            android:text="1. Lihatlah lingkungan sekitarmu!  Jika kamu melihat sampah berserakan, geserlah ke tong sampah." />
-        <TextView
-            android:id="@+id/instruction1b"
-            android:layout_width="450dp"
-            android:layout_height="100dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="150dp"
-            android:textAlignment="gravity"
-            android:textColor="@color/colorWarnaHuruf"
-            android:textSize="12dp"
-            android:textStyle="bold"
-            android:text="2. Buanglah sampah organik (seperti: sisa makanan, kulit pisang, dan apel) ke tong sampah hijau." />
-        <TextView
-            android:id="@+id/instruction1c"
-            android:layout_width="450dp"
-            android:layout_height="100dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="200dp"
-            android:textAlignment="gravity"
-            android:textColor="@color/colorWarnaHuruf"
-            android:textSize="12dp"
-            android:textStyle="bold"
-            android:text="3. Buanglah sampah an-organik (seperti: botol plastik, koran, dan bungkus plastik) ke tong sampah kuning." />
-        <TextView
-            android:id="@+id/instruction1d"
-            android:layout_width="450dp"
+            android:id="@+id/instruction1Tablet"
+            android:layout_width="650dp"
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="250dp"
             android:textAlignment="gravity"
             android:textColor="@color/colorWarnaHuruf"
-            android:textSize="12dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="1. Lihatlah lingkungan sekitarmu!  Jika kamu melihat sampah berserakan, geserlah ke tong sampah." />
+        <TextView
+            android:id="@+id/instruction1bTablet"
+            android:layout_width="650dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="2. Buanglah sampah organik (seperti: sisa makanan, kulit pisang, dan apel) ke tong sampah hijau." />
+        <TextView
+            android:id="@+id/instruction1cTablet"
+            android:layout_width="650dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="3. Buanglah sampah an-organik (seperti: botol plastik, koran, dan bungkus plastik) ke tong sampah kuning." />
+        <TextView
+            android:id="@+id/instruction1dTablet"
+            android:layout_width="650dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="18dp"
             android:textStyle="bold"
             android:text="4. Buanglah sampah berbahaya (seperti: pelumas dan cairan pembersih) ke tong sampah merah." />
         <TextView
-            android:id="@+id/instruction1e"
+            android:id="@+id/instruction1eTablet"
             android:layout_width="650dp"
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="450dp"
             android:textAlignment="gravity"
             android:textColor="@color/colorWarnaHuruf"
-            android:textSize="12dp"
+            android:textSize="18dp"
             android:textStyle="bold"
             android:text="5. Kamu dapat 10 poin kalau membuang ke tong yang benar. Tapi, kamu cuma dapat 1 poin kalau membuang ke tong yang salah.
 " />
@@ -116,5 +116,4 @@
 
     </RelativeLayout>
 
-
-</android.support.constraint.ConstraintLayout>
+</android.support.design.widget.CoordinatorLayout>

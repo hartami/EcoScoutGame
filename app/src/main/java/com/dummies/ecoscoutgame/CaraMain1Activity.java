@@ -1,6 +1,7 @@
 package com.dummies.ecoscoutgame;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
@@ -19,7 +20,16 @@ public class CaraMain1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cara_main1);
+        //setContentView(R.layout.activity_cara_main1);
+        Configuration config = getResources().getConfiguration();
+        if (config.smallestScreenWidthDp >= 600)
+        {
+            setContentView(R.layout.activity_cara_main1_tablet);
+        }
+        else
+        {
+            setContentView(R.layout.activity_cara_main1);
+        }
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         mp = MediaPlayer.create(this, R.raw.suarakliktombol);

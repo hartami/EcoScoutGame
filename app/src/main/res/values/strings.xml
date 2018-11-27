@@ -2,4 +2,5 @@
     <string name="app_name">Eco Scout Game</string>
     <string name="title_activity_main_tablet">MainTabletActivity</string>
     <string name="title_activity_pilih_level_tablet">PilihLevelTabletActivity</string>
+    <string name="title_activity_cara_main1_tablet">CaraMain1TabletActivity</string>
 </resources>
