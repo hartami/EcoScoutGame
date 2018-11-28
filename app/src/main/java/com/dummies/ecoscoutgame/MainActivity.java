@@ -16,7 +16,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    ImageButton pindah, keluar;
+    ImageButton pindah, keluar, move;
     MediaPlayer mp, suaraopening;
 
 
@@ -27,10 +27,71 @@ public class MainActivity extends AppCompatActivity {
         if (config.smallestScreenWidthDp >= 600)
         {
             setContentView(R.layout.activity_main_tablet);
+            keluar =(ImageButton) findViewById(R.id.tombolKeluarTablet);
+            keluar.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    onBackPressed();
+                }
+            });
+
+            move = (ImageButton) findViewById(R.id.tombolMulaiMainTablet);
+            move.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    suaraopening.stop();
+                    mp.start();
+                    Intent intent = new Intent(MainActivity.this,PilihLevelActivity.class);
+                    startActivity(intent);
+
+                }
+            });
+
+            pindah = (ImageButton) findViewById(R.id.tombolCaraMainBesarTablet);
+            pindah.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    suaraopening.stop();
+                    mp.start();
+                    Intent intent = new Intent(MainActivity.this,CaraMain1Activity.class);
+                    startActivity(intent);
+                }
+            });
         }
         else
         {
             setContentView(R.layout.activity_main);
+            keluar =(ImageButton) findViewById(R.id.tombolKeluar);
+            keluar.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    onBackPressed();
+                }
+            });
+
+            move = (ImageButton) findViewById(R.id.tombolMulaiMain);
+            move.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    suaraopening.stop();
+                    mp.start();
+                    Intent intent = new Intent(MainActivity.this,PilihLevelActivity.class);
+                    startActivity(intent);
+
+                }
+            });
+
+            pindah = (ImageButton) findViewById(R.id.tombolCaraMainBesar);
+            pindah.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    suaraopening.stop();
+                    mp.start();
+                    Intent intent = new Intent(MainActivity.this,CaraMain1Activity.class);
+                    startActivity(intent);
+                }
+            });
+
         }
         //setContentView(R.layout.activity_main);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -39,39 +100,7 @@ public class MainActivity extends AppCompatActivity {
         suaraopening = MediaPlayer.create(getBaseContext(), R.raw.suaraopening);
         suaraopening.start();
 
-        keluar =(ImageButton) findViewById(R.id.tombolKeluar);
-        keluar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
-
-
-        pindah = (ImageButton) findViewById(R.id.tombolMulaiMain);
-        pindah.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                suaraopening.stop();
-                mp.start();
-                Intent intent = new Intent(MainActivity.this,PilihLevelActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
-        pindah = (ImageButton) findViewById(R.id.tombolCaraMainBesar);
-        pindah.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                suaraopening.stop();
-                mp.start();
-                Intent intent = new Intent(MainActivity.this,CaraMain1Activity.class);
-                startActivity(intent);
-            }
-        });
-
-    }
+        }
 
 
     @Override
