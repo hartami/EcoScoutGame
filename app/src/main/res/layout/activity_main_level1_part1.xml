@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bglevel1tablet"
+    android:background="@mipmap/bglevel1eng"
     tools:context="com.dummies.ecoscoutgame.MainLevel1Part1Activity">
 
     <RelativeLayout
@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp">
+        >
 
         <ImageButton
             android:id="@+id/tombolBeranda"
@@ -70,154 +70,153 @@
 
         <LinearLayout
             android:id="@+id/layoutTongSampahHijau"
-            android:layout_width="110dp"
-            android:layout_height="150dp"
+            android:layout_width="65dp"
+            android:layout_height="105dp"
             android:layout_alignBottom="@+id/layoutTongSampahBiru"
             android:layout_toLeftOf="@id/layoutTongSampahBiru"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/tongSampahHijau"
-                android:layout_width="110dp"
-                android:layout_height="150dp"
+                android:layout_width="65dp"
+                android:layout_height="105dp"
                 android:layout_centerHorizontal="true"
                 android:background="@null"
-                app:srcCompat="@mipmap/tongsampahhijautablet2"
+                app:srcCompat="@mipmap/tongsampahhijaueng3"
                  />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/layoutTongSampahBiru"
-            android:layout_width="110dp"
-            android:layout_height="150dp"
+            android:layout_width="65dp"
+            android:layout_height="105dp"
             android:layout_alignBottom="@+id/layoutTongSampahKuning"
             android:layout_toLeftOf="@id/layoutTongSampahKuning"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/tongSampahBiru"
-                android:layout_width="110dp"
-                android:layout_height="150dp"
+                android:layout_width="65dp"
+                android:layout_height="105dp"
                 android:layout_centerHorizontal="true"
                 android:background="@null"
-                app:srcCompat="@mipmap/tongsampahbirutablet2" />
+                app:srcCompat="@mipmap/tongsampahbirueng3" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/layoutTongSampahKuning"
-            android:layout_width="110dp"
-            android:layout_height="150dp"
+            android:layout_width="65dp"
+            android:layout_height="105dp"
             android:layout_alignBottom="@+id/layoutTongSampahMerah"
             android:layout_toLeftOf="@id/layoutTongSampahMerah"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/tongSampahKuning"
-                android:layout_width="110dp"
-                android:layout_height="150dp"
+                android:layout_width="65dp"
+                android:layout_height="105dp"
                 android:layout_centerHorizontal="true"
                 android:background="@null"
-                app:srcCompat="@mipmap/tongsampahkuningtablet2" />
+                app:srcCompat="@mipmap/tongsampahkuningeng3" />
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/layoutTongSampahMerah"
-            android:layout_width="110dp"
-            android:layout_height="150dp"
+            android:layout_width="65dp"
+            android:layout_height="105dp"
             android:layout_below="@+id/pusatlevel1"
-            android:layout_marginRight="90dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
             android:layout_toLeftOf="@id/pusatlevel2"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/tongSampahMerah"
-                android:layout_width="110dp"
-                android:layout_height="150dp"
+                android:layout_width="65dp"
+                android:layout_height="105dp"
                 android:layout_centerHorizontal="true"
                 android:background="@null"
-                app:srcCompat="@mipmap/tongsampahmerahtablet2" />
+                app:srcCompat="@mipmap/tongsampahmeraheng3" />
         </LinearLayout>
 
 
         <ImageButton
             android:id="@+id/sampahHijau3"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_below="@id/pusatlevel2"
-            android:layout_marginLeft="140dp"
-            android:layout_marginTop="10dp"
-            android:layout_toRightOf="@id/pusatlevel2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/layoutKosong3"
+            android:layout_alignLeft="@id/scoreCounter"
+            android:layout_marginTop="0dp"
             android:background="@null"
-            app:srcCompat="@mipmap/sampahapeltablet2" />
+            app:srcCompat="@mipmap/sampahapel3" />
 
         <ImageButton
             android:id="@+id/sampahBiru1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/pusatlevel2"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/pusatlevel2"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-            android:layout_toLeftOf="@id/pusatlevel2"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/eko"
             android:background="@null"
-            app:srcCompat="@mipmap/sampahkorantablet2" />
+            app:srcCompat="@mipmap/sampahkoran3" />
 
 
         <ImageButton
             android:id="@+id/sampahKuning3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_below="@id/pusatlevel1"
-            android:layout_marginLeft="140dp"
+            android:layout_marginLeft="150dp"
             android:layout_marginTop="40dp"
             android:layout_toRightOf="@id/pusatlevel1"
             android:background="@null"
-            app:srcCompat="@mipmap/sampahbotoltablet2" />
+            app:srcCompat="@mipmap/sampahbotol9" />
 
         <ImageButton
             android:id="@+id/sampahBiru2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
             android:layout_toLeftOf="@id/scoreCounter"
-            android:layout_alignBottom="@+id/eko"
+            android:layout_below="@id/eko"
             android:background="@null"
             app:srcCompat="@mipmap/sampahbukutablet2" />
 
         <ImageButton
             android:id="@+id/sampahMerah2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
             android:layout_alignTop="@+id/layoutTongSampahMerah"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="0dp"
             android:layout_toLeftOf="@id/scoreCounter"
             android:background="@null"
-            app:srcCompat="@mipmap/sampahkalengkeduatablet2"
+            app:srcCompat="@mipmap/sampahkalengkedua5"
             />
 
         <ImageButton
             android:id="@+id/sampahKuning2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_below="@+id/layoutKosong3"
             android:layout_toRightOf="@+id/eko"
             android:background="@null"
-            app:srcCompat="@mipmap/sampahsnackkeduatablet2" />
+            app:srcCompat="@mipmap/sampahsnackkedua3" />
 
         <ImageButton
             android:id="@+id/sampahHijau2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/pusatlevel1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/eko"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="0dp"
             android:layout_toRightOf="@id/pusatlevel1"
             android:background="@null"
-            app:srcCompat="@mipmap/sampahpisangtablet2" />
+            app:srcCompat="@mipmap/sampahpisang3" />
 
         <ImageView
             android:id="@+id/sampahKuning1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_below="@+id/layoutTongSampahHijau"
             android:layout_marginLeft="5dp"
             android:layout_toEndOf="@+id/tombolBeranda"
@@ -226,21 +225,21 @@
 
         <ImageButton
             android:id="@+id/sampahHijau1"
-            android:layout_width="70dp"
-            android:layout_height="60dp"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
             android:layout_alignBottom="@+id/layoutKosong2"
             android:layout_toRightOf="@id/layoutTongSampahKuning"
             android:background="@null"
-            app:srcCompat="@mipmap/sampahpisangtablet2" />
+            app:srcCompat="@mipmap/sampahpisang6" />
 
         <ImageButton
             android:id="@+id/sampahMerah1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
             android:layout_toRightOf="@id/timer"
-            android:layout_below="@id/layoutTongSampahMerah"
+            android:layout_below="@id/layoutTongSampahKuning"
             android:background="@null"
-            app:srcCompat="@mipmap/sampahkalengtablet2" />
+            app:srcCompat="@mipmap/sampahkaleng2" />
 
 
 
@@ -277,9 +276,9 @@
 
         <ImageView
             android:id="@+id/eko"
-            android:layout_width="100dp"
-            android:layout_height="200dp"
-            android:layout_above="@id/layoutKosong3"
+            android:layout_width="80dp"
+            android:layout_height="180dp"
+            android:layout_centerVertical="true"
             android:layout_alignLeft="@id/pusatlevel2"
             android:layout_marginLeft="10dp"
             app:srcCompat="@mipmap/ekoutamaversitablet3" />

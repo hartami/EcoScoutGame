@@ -3,4 +3,7 @@
     <string name="title_activity_main_tablet">MainTabletActivity</string>
     <string name="title_activity_pilih_level_tablet">PilihLevelTabletActivity</string>
     <string name="title_activity_cara_main1_tablet">CaraMain1TabletActivity</string>
+    <string name="title_activity_opening1_level1_tablet">Opening1Level1TabletActivity</string>
+    <string name="title_activity_opening2_level1_tablet">Opening2Level1TabletActivity</string>
+    <string name="title_activity_main_level1_part1_tablet">MainLevel1Part1TabletActivity</string>
 </resources>

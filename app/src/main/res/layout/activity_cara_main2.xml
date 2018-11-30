@@ -11,14 +11,13 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        >
 
 
     <ImageView
         android:id="@+id/backgroundCaraMain"
-        android:layout_width="1050dp"
-        android:layout_height="1000dp"
+        android:layout_width="550dp"
+        android:layout_height="500dp"
         android:layout_centerInParent="true"
         app:srcCompat="@mipmap/bgcaramaintabletpagekedua2" />
 
@@ -60,13 +59,13 @@
 
         <TextView
             android:id="@+id/instruction2"
-            android:layout_width="850dp"
+            android:layout_width="400dp"
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="225dp"
+            android:layout_marginTop="250dp"
             android:textAlignment="gravity"
             android:textColor="@color/colorWarnaHuruf"
-            android:textSize="18dp"
+            android:textSize="12dp"
             android:textStyle="bold"
             android:text="You will earn 10 points when you drop it to the right trash bin. But, you will earn only 1 point when you drop it to the wrong trash bin.
 " />

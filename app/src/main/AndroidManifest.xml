@@ -53,6 +53,18 @@
         <activity
             android:name=".CaraMain1TabletActivity"
             android:label="@string/title_activity_cara_main1_tablet"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".Opening1Level1TabletActivity"
+            android:label="@string/title_activity_opening1_level1_tablet"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".Opening2Level1TabletActivity"
+            android:label="@string/title_activity_opening2_level1_tablet"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".MainLevel1Part1TabletActivity"
+            android:label="@string/title_activity_main_level1_part1_tablet"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
     </application>
 

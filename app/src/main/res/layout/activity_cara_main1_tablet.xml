@@ -18,7 +18,7 @@
             android:layout_width="850dp"
             android:layout_height="800dp"
             android:layout_centerInParent="true"
-            app:srcCompat="@mipmap/bgcaramain8" />
+            app:srcCompat="@mipmap/bgcaramaintablet6" />
 
         <ImageButton
             android:id="@+id/tombolBeranda2Tablet"
@@ -61,12 +61,12 @@
             android:layout_width="650dp"
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="100dp"
             android:textAlignment="gravity"
             android:textColor="@color/colorWarnaHuruf"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:text="1. Lihatlah lingkungan sekitarmu!  Jika kamu melihat sampah berserakan, geserlah ke tong sampah." />
+            android:text="Please drag and drop each trash into a dustbin based on these categories!" />
         <TextView
             android:id="@+id/instruction1bTablet"
             android:layout_width="650dp"
@@ -77,7 +77,7 @@
             android:textColor="@color/colorWarnaHuruf"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:text="2. Buanglah sampah organik (seperti: sisa makanan, kulit pisang, dan apel) ke tong sampah hijau." />
+            android:text=" " />
         <TextView
             android:id="@+id/instruction1cTablet"
             android:layout_width="650dp"
@@ -88,7 +88,7 @@
             android:textColor="@color/colorWarnaHuruf"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:text="3. Buanglah sampah an-organik (seperti: botol plastik, koran, dan bungkus plastik) ke tong sampah kuning." />
+            android:text=" " />
         <TextView
             android:id="@+id/instruction1dTablet"
             android:layout_width="650dp"
@@ -99,7 +99,7 @@
             android:textColor="@color/colorWarnaHuruf"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:text="4. Buanglah sampah berbahaya (seperti: pelumas dan cairan pembersih) ke tong sampah merah." />
+            android:text=" " />
         <TextView
             android:id="@+id/instruction1eTablet"
             android:layout_width="650dp"
@@ -110,8 +110,7 @@
             android:textColor="@color/colorWarnaHuruf"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:text="5. Kamu dapat 10 poin kalau membuang ke tong yang benar. Tapi, kamu cuma dapat 1 poin kalau membuang ke tong yang salah.
-" />
+            android:text=" " />
 
 
     </RelativeLayout>

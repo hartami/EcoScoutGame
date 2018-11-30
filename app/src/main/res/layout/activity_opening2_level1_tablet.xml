@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/bgopeningtablet3"
     android:orientation="horizontal"
-    tools:context="com.dummies.ecoscoutgame.Opening2Level1Activity">
+    tools:context=".Opening2Level1TabletActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
-            android:id="@+id/textHallo2"
+            android:id="@+id/textHallo2Tablet"
             android:layout_width="450dp"
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
             android:textColor="@color/colorWarnaHuruf"
-            android:textSize="16dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textAlignment="center"
             android:text="If you see people litter, please drag and drop the waste to the right trash bin. " />
 
         <TextView
-            android:id="@+id/pusatopening2"
+            android:id="@+id/pusatopening2Tablet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -36,4 +37,4 @@
 
     </RelativeLayout>
 
-</android.support.constraint.ConstraintLayout>
+</android.support.design.widget.CoordinatorLayout>

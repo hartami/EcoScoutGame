@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bglevel1tablet"
+    tools:context=".MainLevel1Part1TabletActivity">
+
+    <RelativeLayout
+        android:id="@+id/view_relative1Tablet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <ImageButton
+            android:id="@+id/tombolBerandaTablet"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            app:srcCompat="@mipmap/tombolberanda8" />
+
+        <TextView
+            android:id="@+id/scoreCounterTablet"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/tombolBerandaTablet"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:text="Score :   0 "
+            android:textAlignment="gravity"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/timerTablet"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/tombolBerandaTablet"
+            android:layout_toRightOf="@id/tombolBerandaTablet"
+            android:text="Time : 60 "
+            android:textAlignment="gravity"
+            android:textColor="@color/colorWarnaHuruf"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/pusatlevel1Tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/pusatlevel2Tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pusatlevel1Tablet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:text=" " />
+
+
+        <LinearLayout
+            android:id="@+id/layoutTongSampahHijauTablet"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_alignBottom="@+id/layoutTongSampahBiruTablet"
+            android:layout_toLeftOf="@id/layoutTongSampahBiruTablet"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tongSampahHijauTablet"
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                app:srcCompat="@mipmap/tongsampahhijautablet2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutTongSampahBiruTablet"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_alignBottom="@+id/layoutTongSampahKuningTablet"
+            android:layout_toLeftOf="@id/layoutTongSampahKuningTablet"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tongSampahBiruTablet"
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                app:srcCompat="@mipmap/tongsampahbirutablet2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutTongSampahKuningTablet"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_alignBottom="@+id/layoutTongSampahMerahTablet"
+            android:layout_toLeftOf="@id/layoutTongSampahMerahTablet"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tongSampahKuningTablet"
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                app:srcCompat="@mipmap/tongsampahkuningtablet2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutTongSampahMerahTablet"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/pusatlevel1Tablet"
+            android:layout_marginRight="90dp"
+            android:layout_marginTop="70dp"
+            android:layout_toLeftOf="@id/pusatlevel2Tablet"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tongSampahMerahTablet"
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                app:srcCompat="@mipmap/tongsampahmerahtablet2" />
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/sampahHijau3Tablet"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/pusatlevel2Tablet"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/pusatlevel2Tablet"
+            android:background="@null"
+            app:srcCompat="@mipmap/sampahapeltablet2" />
+
+        <ImageButton
+            android:id="@+id/sampahBiru1Tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pusatlevel2Tablet"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/pusatlevel2Tablet"
+            android:background="@null"
+            app:srcCompat="@mipmap/sampahkorantablet2" />
+
+
+        <ImageButton
+            android:id="@+id/sampahKuning3Tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pusatlevel1Tablet"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/pusatlevel1Tablet"
+            android:background="@null"
+            app:srcCompat="@mipmap/sampahbotoltablet2" />
+
+        <ImageButton
+            android:id="@+id/sampahBiru2Tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/scoreCounterTablet"
+            android:layout_alignBottom="@+id/ekoTablet"
+            android:background="@null"
+            app:srcCompat="@mipmap/sampahbukutablet2" />
+
+        <ImageButton
+            android:id="@+id/sampahMerah2Tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/layoutTongSampahMerahTablet"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/scoreCounterTablet"
+            android:background="@null"
+            app:srcCompat="@mipmap/sampahkalengkeduatablet2"
+            />
+
+        <ImageButton
+            android:id="@+id/sampahKuning2Tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutKosong3Tablet"
+            android:layout_toRightOf="@+id/eko"
+            android:background="@null"
+            app:srcCompat="@mipmap/sampahsnackkeduatablet2" />
+
+        <ImageButton
+            android:id="@+id/sampahHijau2Tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pusatlevel1Tablet"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/pusatlevel1Tablet"
+            android:background="@null"
+            app:srcCompat="@mipmap/sampahpisangtablet2" />
+
+        <ImageView
+            android:id="@+id/sampahKuning1Tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutTongSampahHijauTablet"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/tombolBerandaTablet"
+            android:layout_toRightOf="@+id/tombolBerandaTablet"
+            app:srcCompat="@mipmap/sampahsnacktablet2" />
+
+        <ImageButton
+            android:id="@+id/sampahHijau1Tablet"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/layoutKosong2Tablet"
+            android:layout_toRightOf="@id/layoutTongSampahKuningTablet"
+            android:background="@null"
+            app:srcCompat="@mipmap/sampahpisangtablet2" />
+
+        <ImageButton
+            android:id="@+id/sampahMerah1Tablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/timerTablet"
+            android:layout_below="@id/layoutTongSampahMerahTablet"
+            android:background="@null"
+            app:srcCompat="@mipmap/sampahkalengtablet2" />
+
+
+
+        <LinearLayout
+            android:id="@+id/layoutKosong1Tablet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignRight="@id/layoutTongSampahMerahTablet"
+            android:layout_below="@+id/layoutTongSampahHijauTablet"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layoutKosong2Tablet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignRight="@id/scoreCounterTablet"
+            android:layout_alignTop="@id/layoutKosong1Tablet"
+            android:layout_toRightOf="@id/layoutKosong1Tablet"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutKosong3Tablet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/layoutKosong1Tablet"
+            android:layout_alignBottom="@id/layoutTongSampahMerahTablet"
+            android:layout_alignRight="@id/scoreCounterTablet"
+            android:layout_alignTop="@id/layoutTongSampahMerahTablet"
+            android:layout_toRightOf="@id/layoutKosong1Tablet"
+            android:orientation="horizontal"></LinearLayout>
+
+        <ImageView
+            android:id="@+id/ekoTablet"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_above="@id/layoutKosong3Tablet"
+            android:layout_alignLeft="@id/pusatlevel2Tablet"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@mipmap/ekoutamaversitablet3" />
+
+    </RelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
